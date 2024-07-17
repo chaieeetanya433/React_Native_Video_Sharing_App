@@ -14,13 +14,14 @@
     },
     "ios": {
       "supportsTablet": true,
-      "package": "com.chai.aora"
+      "bundleIdentifier": "com.chai.aora" 
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.chaieeetanya.aura"
     },
     "web": {
       "bundler": "metro",
@@ -32,6 +33,14 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "e3ccebc4-284c-45c3-a78e-9400b6cf0d84"
+      }
     }
   }
 }
